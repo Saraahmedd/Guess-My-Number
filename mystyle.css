@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Again {
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+.Game {
+  text-align: center;
+}
+.MyNumber {
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+.User {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Guess {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Guessing {
+  border-width: 5px;
+  border-color: white;
+  background-color: black;
+  padding: 20px;
+}
+.Btn {
+  font-family: 'Press Start 2P', sans-serif;
+}
+.Check {
+  height: 50px;
+  width: px;
+}
